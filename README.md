@@ -1,5 +1,6 @@
 # Resultcenter Cleaner
 
+This bundle will clean the Result Center, if the map content changes.
 
 ### Sample App ###
 http://www.mapapps.de/mapapps/resources/apps/downloads_resultcentercleaner/index.html

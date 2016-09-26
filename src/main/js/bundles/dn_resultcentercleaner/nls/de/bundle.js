@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 define({
-    bundleName: "ResultCenterCleaner",
-    bundleDescription: "Dieses Bundle dient der Aktivierung/Deaktivierung von Layern"
+    bundleName: "Result Center Cleaner",
+    bundleDescription: "Dieses Bundle löscht die Ergebnisse im Result Center, wenn sich das Kartenthema ändert."
 });

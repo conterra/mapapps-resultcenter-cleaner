@@ -15,8 +15,8 @@
  */
 define({
     root: {
-        bundleName: "ResultCenterCleaner",
-        bundleDescription: "This bundle toggles layers"
+        bundleName: "Result Center Cleaner",
+        bundleDescription: "This bundle will clean the Result Center, if the map content changes."
     },
     de: true
 });
