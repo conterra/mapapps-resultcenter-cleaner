@@ -1,0 +1,35 @@
+{
+  "Bundle-SymbolicName": "dn_resultcentercleaner",
+  "Bundle-Version": "1.0.0-SNAPSHOT",
+  "Bundle-Name": "${bundleName}",
+  "Bundle-Description": "${bundleDescription}",
+  "Bundle-Vendor": "con terra GmbH",
+  "Product-Name": "devnet-resultcenter-cleaner",
+  "Bundle-Category": [
+    "sample"
+  ],
+  "Bundle-Icon": {},
+  "Bundle-License": {},
+  "Require-Bundle": [
+    {
+      "name": "resultcenter"
+    }
+  ],
+  "Components": [
+    {
+      "name": "ResultCenterCleaner",
+      "provides": [],
+      "properties": {},
+      "references": [
+        {
+          "name": "_mapModel",
+          "providing": "ct.mapping.map.MapModel"
+        },
+        {
+          "name": "_dataModel",
+          "providing": "ct.resultcenter.DataModel"
+        }
+      ]
+    }
+  ]
+}
