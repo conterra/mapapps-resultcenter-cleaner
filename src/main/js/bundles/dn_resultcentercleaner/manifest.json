@@ -12,7 +12,8 @@
   "Bundle-License": {},
   "Require-Bundle": [
     {
-      "name": "resultcenter"
+      "name": "resultcenter",
+	  "version": "^3.6.0"
     }
   ],
   "Components": [
