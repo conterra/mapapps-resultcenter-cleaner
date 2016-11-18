@@ -13,7 +13,7 @@
   "Require-Bundle": [
     {
       "name": "resultcenter",
-	  "version": "^3.6.0"
+	  "version": "^3.2.1"
     }
   ],
   "Components": [
