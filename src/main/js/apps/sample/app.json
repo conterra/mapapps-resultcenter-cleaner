@@ -1,7 +1,7 @@
 {
   "properties": {
     "title": "Result Center Cleaner Sample",
-     "amdPackages": "apprt@^3.2.1"
+    "amdPackages": "apprt@^3.2.1"
   },
   "load": {
     "bundleLocations": [
@@ -24,11 +24,50 @@
       "selection@^3.2.1",
       "banner@^3.2.1",
       "console@^3.2.1",
-      "dn_resultcentercleaner@^3.2.1"
+      "custominfo@^3.2.1",
+      "dn_resultcentercleaner"
     ],
     "skipBundles": []
   },
   "bundles": {
+    "banner": {
+      "BannerWidget": {
+        "label": "Developer Network",
+        "image": "https://www.conterra.de/~/media/conterra/images/site_logos/conterra-logo.ashx",
+        "imagePosition": "above",
+        "link": "http://developernetwork.conterra.de"
+      }
+    },
+    "custominfo": {
+      "CustomInfoToggleTool": [
+        {
+          "id": "customInfoTool",
+          "activateOnStartup": true,
+          "title": "Information",
+          "tooltip": "Information",
+          "iconClass": "icon-custom-info-info",
+          "toolClass": "ctInfo",
+          "togglable": true,
+          "widgetSettings": {
+            "content": "This app shows the functionality of the Result Center Cleaner bundle which will clean the Result Center, if the map content changes.",
+            "window": {
+              "title": "Information",
+              "marginBox": {
+                "w": 300,
+                "h": 100,
+                "l": 15,
+                "b": 70
+              },
+              "draggable": true,
+              "closable": true,
+              "modal": false,
+              "maximizable": false,
+              "resizable": false
+            }
+          }
+        }
+      ]
+    },
     "selection": {
       "SelectionTool": [
         {
@@ -39,14 +78,6 @@
           "geoType": "Extent"
         }
       ]
-    },
-    "banner": {
-      "BannerWidget": {
-        "label": "Developer Network",
-        "image": "https://www.conterra.de/~/media/conterra/images/site_logos/conterra-logo.ashx",
-        "imagePosition": "above",
-        "link": "http://developernetwork.conterra.de"
-      }
     },
     "mapflow": {
       "MapFlow": {
